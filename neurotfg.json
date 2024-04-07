@@ -1,0 +1,30 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"neurotfg"},
+{"type":"table","name":"funciones_cognitivas","database":"neurotfg","data":
+[
+{"categoria_id":"1","categoria_nombre":"Atención selectiva"},
+{"categoria_id":"2","categoria_nombre":"Atención sostenida"},
+{"categoria_id":"3","categoria_nombre":"atención alternante"},
+{"categoria_id":"4","categoria_nombre":"Atención dividida"},
+{"categoria_id":"5","categoria_nombre":"Memoria corto plazo"},
+{"categoria_id":"6","categoria_nombre":"Memoria largo plazo"},
+{"categoria_id":"7","categoria_nombre":"Memoria de trabajo"},
+{"categoria_id":"8","categoria_nombre":"Memoria largo plazo"},
+{"categoria_id":"9","categoria_nombre":"Lenguaje espontaneo"},
+{"categoria_id":"10","categoria_nombre":"Fluencia"},
+{"categoria_id":"11","categoria_nombre":"Denominacion"},
+{"categoria_id":"12","categoria_nombre":"Comprension"},
+{"categoria_id":"13","categoria_nombre":"Lectura y escritura"}
+]
+}
+,{"type":"table","name":"tests_cogni","database":"neurotfg","data":
+[
+{"test_id":"1","test_nombre":"Test D2","categoria_id":"1","descripcion":"Tarea de cancelación de elementos visuales. Evalúa capacidad de concentración mediante velocidad y precisión.","edad_desde":"6","nivel_educativo":"1","regiones_relac":"","tiempo_requerido":"8","edad_hasta":"80"},
+{"test_id":"2","test_nombre":"TMT-A","categoria_id":"1","descripcion":"Test de lápiz y papel compuesto por una cantidad variable de números que el usuario ha de unir en orden creciente.","edad_desde":"9","nivel_educativo":"1","regiones_relac":"Tallo cerebral, diencéfalo, corteza cerebral.","tiempo_requerido":"5","edad_hasta":"99"},
+{"test_id":"3","test_nombre":"Symbol-Digit Modalities Test (SDMT)","categoria_id":"2","descripcion":"El objetivo es sustituir una serie de símbolos en dígitos a partir de una clave dada. La duración permite evaluar la pérdida de rendimiento en el tiempo.","edad_desde":"8","nivel_educativo":"1","regiones_relac":null,"tiempo_requerido":"15","edad_hasta":"99"},
+{"test_id":"4","test_nombre":"Paced Auditory Serial Addition Test (PASAT)","categoria_id":"4","descripcion":"Test auditivo que presenta un dígito al usuario en intervalos de 2 o 3'', con el objetivo de sumarlos mentalmente en serie.","edad_desde":"15","nivel_educativo":"2","regiones_relac":null,"tiempo_requerido":"8","edad_hasta":"80"},
+{"test_id":"5","test_nombre":"TMT-B","categoria_id":"3","descripcion":"Parte B del test TMT. En esta ocasión, el usuario ha de unir los elementos en orden ascendente, pero alternando en cada paso entre números y letras (A -> Z).","edad_desde":"9","nivel_educativo":"1","regiones_relac":null,"tiempo_requerido":"8","edad_hasta":"99"}
+]
+}
+]
